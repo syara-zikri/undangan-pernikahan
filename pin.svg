@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" role="img" aria-label="Lokasi">
+  <path fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+        d="M12 21s-6-7.5-6-12A6 6 0 0 1 12 3a6 6 0 0 1 6 6c0 4.5-6 12-6 12z"/>
+  <circle cx="12" cy="9" r="2.2" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+</svg>
