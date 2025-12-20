@@ -1091,9 +1091,9 @@ section img {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(6px);
-  border-radius: 12px;
-  padding: clamp(0.6rem, 1.5vh, 0.8rem) clamp(1rem, 3vw, 1.5rem);
-  min-width: 120px;
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem;
+  min-width: 95px;
   text-align: center;
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -1108,17 +1108,37 @@ section img {
 
 .stats-card span {
   display: block;
-  font-size: clamp(1.4rem, 3vw, 1.7rem);
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
   line-height: 1;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 .stats-card p {
   margin: 0;
-  font-size: clamp(0.8rem, 2vw, 0.95rem);
+  font-size: 0.75rem;
 }
 
+  @media (max-width: 360px) {
+
+  .stats-box {
+    gap: 0.6rem;
+  }
+
+  .stats-card {
+    padding: 0.45rem 0.7rem;
+    min-width: 85px;
+  }
+
+  .stats-card span {
+    font-size: 1.1rem;
+  }
+
+  .stats-card p {
+    font-size: 0.7rem;
+  }
+}
+  
 /* ==========================
    Daftar ucapan
    ========================== */
