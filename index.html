@@ -1782,7 +1782,7 @@ function loadRSVP() {
       hadirCount.textContent = totalHadir;
       tidakCount.textContent = totalTidak;
 
-      const latestData = data.slice(-20).reverse();
+      const latestData = data.slice(-100).reverse();
       list.innerHTML = "";
 
       if (!latestData.length) {
