@@ -1180,16 +1180,25 @@ section img {
 .ucapan-item p:first-child {
   font-weight: 600;
   color: #333;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 .ucapan-item p:last-child {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
   color: #444;
-  line-height: 1.5;
+  line-height: 1.4;
   border-left: 3px solid #cbb279;
-  padding-left: 10px;
+  padding-left: 8px;
+}
+  @media (max-width: 360px) {
+    . ucapan-item p:first-child {
+      font-size: 0.8rem;
+    }
+    . ucapan-item p: last-child {
+      font-size: 0.74rem;
+      line-height: 1.35;
+    }
 }
 
 /* Terima kasih */
